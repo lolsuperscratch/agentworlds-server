@@ -1,0 +1,16 @@
+{
+  "name":"agentworlds-server",
+  "version":"1.0.0",
+  "description":"AgentWorlds Server Launcher",
+  "homepage": "https://github.com/lolsuperscratch/agentworlds-server#readme",
+  "bugs":{ 
+     "url" : "https://github.com/lolsuperscratch/agentworlds-server/issues" 
+  },
+  "dependencies":{
+      "events":"*",
+      "express":"*",
+      "socket.io":"*"
+  }
+  
+
+}
