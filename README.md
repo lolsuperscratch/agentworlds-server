@@ -1,4 +1,5 @@
 # AgentWorlds Server
+![Bulid Status](https://travis-ci.com/lolsuperscratch/agentworlds-server.svg)<br>
 AgentWorlds Server will help you to make your server online and you'ill be redirected to agentworlds server page. and verify that server is working.
 
 # Usage
