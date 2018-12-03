@@ -2,6 +2,7 @@
   "name":"agentworlds-server",
   "version":"1.0.0",
   "description":"AgentWorlds Server Launcher",
+  "main":"index.js",
   "homepage": "https://github.com/lolsuperscratch/agentworlds-server#readme",
   "bugs":{ 
      "url" : "https://github.com/lolsuperscratch/agentworlds-server/issues" 
