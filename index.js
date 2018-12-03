@@ -24,7 +24,7 @@ module.exports = function (options) {
      </script>
      </body>
   `);
-    }
+    
 });
 const listener = app.listen(options.port || process.env.PORT || 3000, function() {
   console.log('Your AgentWorlds Server has been listening to port '+listener.address().port+'. enjoy your server!');
