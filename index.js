@@ -9,16 +9,11 @@ module.exports = function (options) {
     
       response.send(`
      <head>
-     <title>${options.name || 'AgentWorlds Server'}</title>
+     <title>Redirecting...</title>
      <link rel="stylesheet" type="text/css" href="https://gitcdn.xyz/repo/pi0/clippyjs/master/assets/clippy.css">
      <link id="favicon" rel="icon" href="https://dl2.macupdate.com/images/icons128/37064.png?d=1315099598" type="image/x-icon">
      </head>
      <body>
-     
-     This is a AgentWorlds Server.
-     
-    
-     
       <script>
         location.href = "https://kindhearted-tulip.glitch.me/server.html?"+location.href
      </script>
@@ -86,7 +81,6 @@ return {
     var socket = io.to(id)
     // emit client that server bans client
     socket.emit('banned',reason || "N/A")
-    socket.disconnect()
   },
   clients:clients,
   server:serveremitter
