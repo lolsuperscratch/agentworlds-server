@@ -1,0 +1,5 @@
+deploy:
+  provider: npm
+  email: "lolsuperscratch@gmail.com"
+  api_key: "9a2ffe6d-93f2-4175-98b3-6474cf1007fb"
+language: node_js
